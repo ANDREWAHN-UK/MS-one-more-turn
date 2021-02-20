@@ -1,0 +1,89 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Exo", sans-serif;
+}
+/*nav bar stuff*/
+.navbar{ background:rgb(20, 20, 20);
+}
+.navbar-brand{
+    margin-left: 150px;/*pushes the logo from the left*/
+}
+
+.navbar-brand:hover{ background: rgba(252, 248, 248, 0.87); color: rgb(20, 20, 20)  }
+
+/*this is the box holding the logo and associated text*/
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}/*brings the hand sign up to indicate an active link,with the set colour*/
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ background: rgba(252, 248, 248, 0.87); color: rgb(20, 20, 20) }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:rgb(20, 20, 20); color: rgba(252, 248, 248, 0.87) !important;}/*styles the drop down menu that appears at smaller view ports*/
+
+.items{
+    padding-right: 30px; /*pushes things in from the right*/
+    font-size: 20px;
+}
+
+/*Footer*/
+.footer{
+    background-color: black;   
+    
+}
+
+.soc-med i {/* style the social media icons*/
+    padding: 30px;
+    font-size: 30px;
+    color: rgba(252, 248, 248, 0.87);
+}
+
+/*Home page*/
+
+
+.left-side, .right-side{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.left-side img, 
+.right-side img{ 
+    width: 100%;
+    height:100%;
+}
+ 
+
+.carousel-caption {  /* this affects how the captions look ontop of the images*/
+  position: absolute;
+  right: 15%;
+  bottom: 50%;
+  left: 15%;  
+  color: #f4f4f4;
+  font-size: 20px;
+}
+
+.tt-caption{
+    color: black;
+}
+
+.carousel-caption i{ /* changes the size of the icons that sit with the captions*/
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 768px){
+    .left-side, .right-side{/* makes the two images stack ontop of each other instead of side by side*/
+    height: 50vh;
+    width: 100%;
+    }
+
+    .navbar, .navbar-toggler, .footer{ background:#773415;}/* changes colours of header and footer*/
+
+    .navbar-brand p{
+        display: none;
+    }
+    
+}
