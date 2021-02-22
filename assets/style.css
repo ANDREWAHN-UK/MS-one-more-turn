@@ -4,8 +4,8 @@ body{
     font-family: "Exo", sans-serif;
 }
 /*nav bar stuff*/
-.navbar{ background:rgb(20, 20, 20);
-    height: 8%;
+.navbar{ 
+    background:rgb(20, 20, 20);       
 }
 .navbar-brand{
     margin-left: 150px;/*pushes the logo from the left*/
@@ -27,7 +27,8 @@ body{
 
 .items{
     padding-right: 30px; /*pushes things in from the right*/
-    font-size: 20px;
+    font-size: 25px;
+    padding: 5px;
 }
 
 /*Footer*/
