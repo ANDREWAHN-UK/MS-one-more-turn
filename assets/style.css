@@ -5,6 +5,7 @@ body{
 }
 /*nav bar stuff*/
 .navbar{ background:rgb(20, 20, 20);
+    height: 8%;
 }
 .navbar-brand{
     margin-left: 150px;/*pushes the logo from the left*/
@@ -110,8 +111,8 @@ body{
   bottom: 30%;  
   color: rgba(252, 248, 248, 0.87);
   font-size: 20px;
-  border: 2px white solid;
-  background-color: rgba(103, 106, 110, 0.459);
+  border: none;
+  background-color: rgba(103, 106, 110, 0.13);
   width: 80vw;
   height: 40%;   
  overflow: hidden;
