@@ -35,11 +35,13 @@ body{
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 8%;
     
 }
 
 .soc-med i {/* style the social media icons*/
     padding: 30px;
+    padding-top: 20px;
     font-size: 30px;
     color: rgba(252, 248, 248, 0.87);
 }
@@ -78,10 +80,32 @@ body{
 
 /* Reviews*/
 
-.rev-box{
+.rev-box{ /* for the reviews pages*/
     height: 80vh;
     width: 100%;    
 }
+
+.big-rev-box{ /* for individual reviews*/
+    height: 100vh;
+    width: 100%; 
+}
+
+.big-rev-text{ /* styles the text box for individual reviews*/
+      position: absolute;
+  left: 10%;
+  right:10%;
+  bottom: 10%;  
+  color: rgba(252, 248, 248, 0.87);
+  font-size: 20px;
+  border: 2px white solid;
+  background-color: rgba(103, 106, 110, 0.459);
+  width: 80vw;
+  height: 60%;   
+ overflow: scroll;
+ text-overflow: ellipsis;
+
+}
+
 .rev-box img{ 
     width: 100%;
     height:100%;
@@ -90,7 +114,7 @@ body{
 .rev-caption {  /* this affects how the read more button looks*/
   position: absolute;
   right: 50%;
-  bottom: 30%;  
+  bottom: 15%;  
   color: rgba(252, 248, 248, 0.87);
   font-size: 20px;
   border: 2px white solid;
@@ -123,6 +147,10 @@ body{
 
     .navbar-brand p{/*removes the tag line "reviews by gamers..."*/
         display: none;
+    }
+
+    .rev-intro{ /*makes the intro box slightly larger on smaller viewports*/
+        height: 50%; 
     }
 
     
