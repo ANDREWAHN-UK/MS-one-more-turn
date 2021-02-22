@@ -132,11 +132,12 @@ body{
 }
 .text-form{ /*this is the text area*/
     position: absolute;  
-    bottom: 10%;
-    left: 10%;
-    right: 10%;
-    height:70vh;
-    width:80%;
+    top: 0;
+  
+    left: 0;
+    
+    height:85vh;
+    width:100%;
     margin-top: 5%;
     background-color: rgba(252, 248, 248, 0.034);
     color: black;
