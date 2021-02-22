@@ -117,7 +117,7 @@ body{
  overflow: hidden;
  text-overflow: ellipsis;
 }
-
+/*Crusader Kings 2 review*/
 .rev-ck-two-about{/*contains the form group*/
     height:100vh;
     width:100%;
@@ -181,7 +181,66 @@ body{
     width: 100%;
     height:100%;
 }
-    
+    /*Contact page*/
+
+    input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 2px solid rgb(27, 26, 26); 
+  border-radius: 10px; 
+  box-sizing: border-box; 
+  resize: vertical 
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: rgb(39, 49, 39);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;  
+  cursor: pointer;
+  }
+
+/*inverted the colour from the normal button*/
+input[type=submit]:hover {
+  background-color: white;
+  color: rgb(39, 49, 39);
+}
+
+#contact-background{/*background image for contact form*/
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://i.imgur.com/t3tqAN7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#contact-form { /* this holds the text fields and buttons*/
+  border-radius: 5px;
+  background-color: rgba(252, 248, 248, 0.438);
+  padding: 20px;
+  height:65vh;
+  width: 80%;
+  border: 2px solid rgb(27, 26, 26); 
+  position: absolute;
+  top: 2%;
+  left: 15%;
+  margin-top: 10%;    
+  text-align: center;
+}
+
+.thank-you{
+    height: 100vh;
+    width:100%
+}
+
+.thank-you img{
+    height: 100%;
+    width: 100%;
+}
 
 @media only screen and (max-width: 768px){
     .left-side, .right-side, .rev-box{/* makes the two images stack ontop of each other instead of side by side*/
@@ -197,6 +256,11 @@ body{
 
     .rev-intro{ /*makes the intro box slightly larger on smaller viewports*/
         height: 50%; 
+    }
+
+    #contact-form{
+        left: 10%;
+        top: 10%;
     }
 
     

@@ -8,7 +8,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel=stylesheet>
-   <title>One More Turn - game reviews </title>
+    <title>One More Turn - game reviews </title>
 </head>
 
 <body>
@@ -31,12 +31,15 @@
                         <a class="nav-link" data-value="about" href="index.html"><i class="fas fa-home"></i>Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " data-value="portfolio" href="tabletop.html"> <i class="fas fa-chess"></i>Tabletop</a>
+                        <a class="nav-link " data-value="portfolio" href="tabletop.html"> <i
+                                class="fas fa-chess"></i>Tabletop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " data-value="blog" href="digital.html"><i class="fas fa-gamepad"></i>Digital</a> </li>
+                        <a class="nav-link " data-value="blog" href="digital.html"><i
+                                class="fas fa-gamepad"></i>Digital</a> </li>
                     <li class="nav-item">
-                        <a class="nav-link " data-value="team" href="about.html"> <i class="fas fa-question"></i>About</a> </li>
+                        <a class="nav-link " data-value="team" href="about.html"> <i
+                                class="fas fa-question"></i>About</a> </li>
                     <li class="nav-item">
                         <a class="nav-link " data-value="contact" href="contact.html"><i
                                 class="fas fa-phone-volume"></i>Contact</a> </li>
@@ -46,62 +49,43 @@
 
     </header>
     <section>
-        <!--This is the homepage. It has two sections, each with a clickable link-->
-        <div class="container-fluid px-0">
 
-            <div class="row no-gutters">
-                <!--no gutters=removes space between the two columns-->
-                <div class="col-md-6 no-gutters">
-                    <!--left side-->
-                    <div class="left-side d-flex justify-content-center align-items-center"><!--affects the text-->
+        <div class="container-fluid" id="contact-background">
+            <div class="container" id="contact-form">
+                <form action="action_page.php">
 
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-                        <img src="https://i.imgur.com/CWdICUN.jpg" alt="Picture of dice"
-                            class="image-fluid">
-                        <a href="#">
-                            <p class="carousel-caption tt-caption"> <i class="fas fa-chess"></i>Tabletop reviews </p>
-                        </a>
-                        
-                    </div>
-
-                </div>
-                <div class="col-md-6 no-gutters">
-                    <!--right side-->
-                    <div class="right-side d-flex justify-content-center align-items-center">
-                        <img src="https://i.imgur.com/Rb3CiTe.jpg" alt="picture of a glowing keyboard" "class="
-                            image-fluid">
-                        <a href="#">
-                            <p class="carousel-caption"> <i class="fas fa-gamepad"></i>Digital reviews </p>
-                        </a>
-
-
-                    </div>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
 
 
+                    <label for="subject">What would you like reviewed?</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
 
+                    <input type="submit" formaction="thank-you.html" value="I will work for waffles!">
 
-
-                </div>
+                </form>
             </div>
-
         </div>
-
 
 
     </section>
     <footer>
         <!--footer-->
-        <div class="row text-center footer no-gutters">           
-            
-            <div class="col-md-12 soc-med"> 
-               <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a> 
+        <div class="row text-center footer no-gutters">
+
+            <div class="col-md-12 soc-med">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
                 <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href="https://twitter.com/?lang=en-gb" target="_blank"><i class="fab fa-twitter-square"></i></a>
                 <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a>
                 <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
             </div>
-            
+
         </div>
 
     </footer>
