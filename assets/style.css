@@ -37,8 +37,7 @@ body{
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 8%;
-    
+    height: 8%;    
 }
 
 .soc-med i {/* style the social media icons*/
@@ -69,7 +68,7 @@ body{
   bottom: 50%;
   left: 15%;  
   color: rgba(252, 248, 248, 0.87);
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .tt-caption{
@@ -94,13 +93,16 @@ body{
 
 .rev-caption {  /* this affects how the read more button looks*/
   position: absolute;
-  left: 45%;
+  left: 45%;  
   bottom: 15%;  
   color: rgba(252, 248, 248, 0.87);
   font-size: 20px;
   border: 2px white solid;
   background-color: rgba(103, 106, 110, 0.459);
   width: 10rem;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .rev-caption:hover{/*styles the hover effect on the read me button*/
@@ -123,16 +125,17 @@ body{
  text-overflow: ellipsis;
 }
 
-.rev-title{
+.rev-title{ /* this is the title for each review, in digital and tabletop pages*/
 position: absolute;
-  left: 45%;
-  right: 15%;
-  top: 15%;  
-  color: rgba(252, 248, 248, 0.87);
+  margin-left:auto;
+  margin-right: auto;
+  top: 20%;  
+  color: rgba(252, 248, 248, 0.897);
   font-size: 30px;
   border: none;
-  background-color: rgba(103, 106, 110, 0.459);
+  background-color: rgba(103, 106, 110, 0.13);
   width: 15rem;
+  text-align: center;  
 }
 
 .rev-text-form{ /*this is the text area for individual reviews*/
@@ -293,6 +296,10 @@ input[type=submit]:hover {
 
     .rev-intro{ /*makes the intro bos disappear on smaller viewports*/
         display: none;
+    }
+
+    .rev-caption{ /*shifts the read more button left on smaller viewports*/
+        left: 35%;
     }
 
     
