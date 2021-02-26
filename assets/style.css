@@ -214,7 +214,7 @@ position: absolute;
 }
     /*Contact page*/
 
-    input[type=text], select, textarea {
+input[type=text], select, textarea {
   width: 100%; 
   padding: 12px; 
   border: 2px solid rgb(27, 26, 26); 
@@ -251,7 +251,7 @@ input[type=submit]:hover {
 
 #contact-form { /* this holds the text fields and buttons*/
   border-radius: 5px;
-  background-color: rgba(252, 248, 248, 0.438);
+  background-color: rgba(255, 255, 255, 0.651);
   padding: 20px;
   height:65vh;
   width: 80%;
