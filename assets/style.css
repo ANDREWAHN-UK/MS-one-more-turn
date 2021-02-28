@@ -129,7 +129,7 @@ body{
 position: absolute;
   margin-left:auto;
   margin-right: auto;
-  top: 20%;  
+  top: 30%;  
   color: rgba(252, 248, 248, 0.897);
   font-size: 30px;
   border: none;
@@ -218,6 +218,8 @@ input[type=text], select, textarea {
   box-sizing: border-box; 
   resize: vertical 
 }
+
+
 
 /* Style the submit button */
 input[type=submit] {
@@ -330,6 +332,8 @@ input[type=submit]:hover {
     .rev-caption{ /*shifts the read more button left on smaller viewports*/
         left: 35%;
    }
+
+   
         
 }
 
