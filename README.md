@@ -61,7 +61,7 @@ The minimal viable product for this website ios a (header) b (footer) c (homepag
 5. Wireframes:
 ________________________________________
 
-The wireframes can be accessed from the wireframes folders, and also directly here:
+The wireframes can be accessed from the "wireframes" folder, and also directly here:
 
 https://github.com/ANDREWAHN-UK/MS-ONE/blob/master/wireframes/MS1%20mobile.bmpr
 
@@ -85,8 +85,9 @@ ________________________________________
 I used Opera and Chrome, and tested it using the dev tools there, accessed in chrome by right click + inspect + toggle device toolbar + select various devices. 
 In Opera right click + inspect + toggle device toolbar +  select various devices. 
 
-Please see below for a selection of screenshots:
-(take 6 screenshots for Opera - one for the first 5 mobile dvices and 1 for the desktop)-Repeat for Chrome.
+Screenshots showing the testing are available from the "screenshots for testing" folder:
+
+https://github.com/ANDREWAHN-UK/MS-ONE/blob/master/screenshots-for-testing
 
 I used https://validator.w3.org to validate the html and https://jigsaw.w3.org/css-validator/ to validate the CSS.
 
@@ -95,6 +96,9 @@ margins to auto, and using "justify content center," "align items center (when n
 
 I also had some issues with gaps appearing between images, with white space showing, which was not wanted. 
 I solved this by using "no gutters" when constructing the rows and columns.
+
+Lastly, the images in the review pages were not displaying correctly on Tablets, namely the Kndle HDX and Ipad, but not the Ipad Pro.
+Experimenting revealed that "col-md-6" was cvausing images to take up only half the row, so removing it fixed this issue.
 
 8. Deployment:
 ________________________________________
@@ -106,7 +110,7 @@ Github: https://andrewahn-uk.github.io/MS-ONE/index.html
 
 Netlify: https://mystifying-poitras-75f386.netlify.app
 
-I have noticed that Github occasionally doesn't update properly, but in my limited exposure Netlify has yet to fail.
+I have noticed that Github occasionally doesn't update properly, but in my limited experience Netlify has yet to fail.
 
 9. Credits:
 ________________________________________
