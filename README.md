@@ -77,7 +77,7 @@ The website was created using Bootstrap, html5 and css3. No javascript was used,
 as I felt intimidated by the Boostrap learning curve. However, I could not get the viewports to work consistently when testing it, so I rebuilt the website using Boostrap.
 The main utility of Bootsrap in this website was in providing a header that collapses on smaller viewports, and also built in sclaing for various viewports.
 
-When I started the website, Github and Gitpod were experiencing some issues, so I did the initial coding in visual studio code. I then miograted thsi to Gitpod and Github.
+When I started the website, Github and Gitpod were experiencing some issues, so I did the initial coding in visual studio code. I then miograted this to Gitpod and Github.
 
 7. Testing:
 ________________________________________
@@ -90,6 +90,7 @@ Screenshots showing the testing are available from the "screenshots for testing"
 https://github.com/ANDREWAHN-UK/MS-ONE/blob/master/screenshots-for-testing
 
 I used https://validator.w3.org to validate the html and https://jigsaw.w3.org/css-validator/ to validate the CSS.
+There were some minor errors (like lone div tags) in the HTMl but the CSS threw up very many errors, ALL of them related to Bootstrap, saying things like "ms flex box not recognised."
 
 I did not encounter many bugs the second time around, although I did have some issues positioning the text form for the contact webpage. I solved that by initially setting all 
 margins to auto, and using "justify content center," "align items center (when needed,)" and then adjusting the margins and padding to get the desired appearance.
