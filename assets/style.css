@@ -93,7 +93,7 @@ body{
 
 .main-review-image{ /* this makes the images used darker, so the accompanying text is more visible. 
     This can be adjusted - e.g. if the image is already dark - by duplicating the class for the image in question*/
-    filter: brightness(70%);
+    filter: brightness(60%);
 }
 
 .rev-caption {  /* this affects how the read more button looks*/
