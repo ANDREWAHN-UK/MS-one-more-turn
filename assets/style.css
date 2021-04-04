@@ -120,8 +120,9 @@ body{
   left: 10%;
   right: 15%;
   bottom: 30%;  
-  color: rgba(252, 248, 248, 0.87);
+  color: rgb(252, 248, 248);
   font-size: 20px;
+  font-weight: bold;
   border: none;
   background-color: rgba(103, 106, 110, 0.055);
   width: 80vw;
@@ -138,7 +139,7 @@ position: absolute;
   color: rgba(252, 248, 248, 0.897);
   font-size: 30px;
   border: none;
-  background-color: rgba(103, 106, 110, 0.7);
+  background-color: rgba(103, 106, 110, 0.05);
   width: 15rem;
   text-align: center;  
 }
