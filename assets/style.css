@@ -98,7 +98,7 @@ body{
   color: rgba(252, 248, 248, 0.87);
   font-size: 20px;
   border: 2px white solid;
-  background-color: rgba(103, 106, 110, 0.459);
+  background-color: rgba(103, 106, 110, 0.76);
   width: 10rem;
   margin-left:auto;
   margin-right: auto;
@@ -118,7 +118,7 @@ body{
   color: rgba(252, 248, 248, 0.87);
   font-size: 20px;
   border: none;
-  background-color: rgba(103, 106, 110, 0.13);
+  background-color: rgba(103, 106, 110, 0.7);
   width: 80vw;
   height: 20%;   
  overflow: hidden;
@@ -133,7 +133,7 @@ position: absolute;
   color: rgba(252, 248, 248, 0.897);
   font-size: 30px;
   border: none;
-  background-color: rgba(103, 106, 110, 0.13);
+  background-color: rgba(103, 106, 110, 0.7);
   width: 15rem;
   text-align: center;  
 }
@@ -145,7 +145,7 @@ position: absolute;
     height:85vh;
     width:100%;
     margin-top: 5%;
-    background-color: rgba(145, 139, 139, 0.466);
+    background-color: rgba(145, 139, 139, 0.7);
     color: white;
     overflow: scroll;
     padding-left: 10%;
@@ -160,6 +160,10 @@ position: absolute;
     background-image: url(https://i.imgur.com/kcCnsQB.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#got-image {
+    max-width: 100%;
 }
 
 /*Troy Total war review*/
