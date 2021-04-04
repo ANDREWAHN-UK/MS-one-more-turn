@@ -122,13 +122,14 @@ body{
   bottom: 30%;  
   color: rgb(252, 248, 248);
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 5;
   border: none;
   background-color: rgba(103, 106, 110, 0.055);
   width: 80vw;
   height: 20%;   
  overflow: hidden;
  text-overflow: ellipsis;
+ text-align: center;
 }
 
 .rev-title{ /* this is the title for each review, in digital and tabletop pages*/
