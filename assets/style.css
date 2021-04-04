@@ -332,14 +332,9 @@ input[type=submit]:hover {
         left: 35%;
    }
 
-   .navbar-brand{
-    margin-left: 50px;/*pushes the logo from the left*/
-}
-        
+           
 }
 
-@media only screen and (max-width: 1024px){
-    .navbar-brand{
+@media only screen and (max-width: 1024px){.navbar-brand{
     margin-left: 50px;/*pushes the logo from the left*/
-}
-}
+}}
