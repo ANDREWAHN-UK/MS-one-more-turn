@@ -318,7 +318,7 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 768px){
     .left-side, .right-side, .rev-box{/* makes the two images stack ontop of each other instead of side by side*/
-    height: 50vh;
+    height: 60vh;
     width: 100%;
     }
 
