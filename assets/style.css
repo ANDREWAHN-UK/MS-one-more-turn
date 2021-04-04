@@ -91,6 +91,11 @@ body{
     height:100%;
 }
 
+.main-review-image{ /* this makes the images used darker, so the accompanying text is more visible. 
+    This can be adjusted - e.g. if the image is already dark - by duplicating the class for the image in question*/
+    filter: brightness(70%);
+}
+
 .rev-caption {  /* this affects how the read more button looks*/
   position: absolute;
   left: 45%;  
@@ -118,7 +123,7 @@ body{
   color: rgba(252, 248, 248, 0.87);
   font-size: 20px;
   border: none;
-  background-color: rgba(103, 106, 110, 0.7);
+  background-color: rgba(103, 106, 110, 0.055);
   width: 80vw;
   height: 20%;   
  overflow: hidden;
@@ -165,6 +170,7 @@ position: absolute;
 #got-image {
     max-width: 100%;
 }
+
 
 /*Troy Total war review*/
 .rev-troy-tw-about{/*contains the form group*/
