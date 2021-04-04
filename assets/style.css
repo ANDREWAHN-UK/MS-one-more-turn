@@ -192,7 +192,7 @@ position: absolute;
     height:100vh;
     width:100%;
     background-image: url(https://i.imgur.com/utzjzrR.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 
 }
@@ -289,7 +289,7 @@ input[type=submit]:hover {
     height:100vh;
     width:100%;
     background-image: url(https://i.imgur.com/v18Ek2D.jpg);
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
@@ -298,20 +298,7 @@ input[type=submit]:hover {
     width: 100%;
 }
 
-.placeholder-text-form{ /*this is the text area*/
-    position: absolute;  
-    top: 0;  
-    left: 0;    
-    height:85vh;
-    width:100%;
-    margin-top: 5%;
-    background-color: rgba(252, 248, 248, 0.473);
-    color: black;
-    overflow: scroll;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: 20px;
-}
+
 
 
 
