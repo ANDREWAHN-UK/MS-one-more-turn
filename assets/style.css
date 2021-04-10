@@ -52,12 +52,12 @@ body{
 .page-header {  /* this affects how the scroll to top button looks*/
   position: fixed;
   left: 90%;  
-  bottom: 30%;  
+  bottom: 20%;  
   color: rgba(252, 248, 248, 0.87);
-  font-size: 20px;
+  font-size: 40px;
   border: 2px white solid;
   background-color: rgba(158, 100, 12, 0.082);
-  width: 10rem;
+  width: 8rem;
   margin-left:auto;
   margin-right: auto;
   text-align: center;
@@ -360,20 +360,27 @@ input[type=submit]:hover {
    }
 
    .page-header{/*this affects how the scroll to top button looks*/
-        left:60%;
+        left:75%;
     }
 
            
 }
 
-
+@media only screen and (max-width: 540px){
+    .page-header{/*this affects how the scroll to top button looks*/
+        left:70%;
+        width: 5rem;
+        bottom: 10%; 
+    }
+    .page-header p{/*this affects how the scroll to top button looks*/
+        display:none;
+    }
+}
 @media only screen and (max-width: 360px){
     .rev-title-header{
     font-size: 20px;
 }
-    .page-header{/*this affects how the scroll to top button looks*/
-        left:50%;
-    }
+    
 }
 
 @media only screen and (max-width: 280px){
@@ -385,10 +392,12 @@ input[type=submit]:hover {
   left: 15%;  
   color: rgba(252, 248, 248, 0.87);
   font-size: 30px;
-}
-
-.page-header{/*this affects how the scroll to top button looks*/
-        left:25%;
+    }
+    .page-header{/*this affects how the scroll to top button looks*/
+        left:60%;
+        width: 5rem;
+        bottom: 10%; 
     }
     
-}
+    
+}}
