@@ -89,31 +89,29 @@ ul {
 
 
 .rev-box-header{ /* for the quasi header*/
-    height: 20vh;
+    height: 5vh;
     width: 100%;    
-    background-color: rgba(139, 132, 23, 0.705);
-    position: sticky;
+    background-color: rgba(139, 131, 23, 0.041);
+    position: -webkit-sticky;
+  
     
 }
 
-.rev-intro-header {  /* this affects how the textbox at the top of the page looks*/
-  position: absolute;
-  left: 10%;
-  right: 15%;
-  bottom: 20%;  
-  color: rgb(252, 248, 248);
-  font-size: 20px;
-  font-weight: 5;
-  border: none;
-  background-color: rgba(103, 106, 110, 0.055);
-  width: 80vw;
-  height: 20%;   
- overflow: hidden;
- text-overflow: ellipsis;
- text-align: center;
+.rev-title-header{ /* this is the title text, to show the user which page they are on*/
+position: absolute;
+  margin-left:auto;
+  margin-right: auto;
+  top: 120%;  
+  color: rgba(252, 248, 248, 0.897);
+  font-size: 30px;
+  border: 2px;
+  background-color: rgba(103, 106, 110, 0.05);
+  width: 15rem;
+  text-align: center;  
 }
+
 .rev-box{ /* for the reviews pages*/
-    height: 80vh;
+    height: 85vh;
     width: 100%;    
 }
 
@@ -372,8 +370,14 @@ input[type=submit]:hover {
     margin-left: 50px;/*pushes the logo from the left*/
 }}
 
+@media only screen and (max-width: 360px){
+    .rev-title-header{
+    font-size: 20px;
+}
+}
+
 @media only screen and (max-width: 280px){
-    .carousel-caption {  /* this affects how the captions look ontop of the images*/
+    .carousel-caption {  /*adjusts the positioning of the carousel caption text pon small view ports*/
   position: absolute;
   top: 40%;
   right: 15%;
@@ -381,5 +385,6 @@ input[type=submit]:hover {
   left: 15%;  
   color: rgba(252, 248, 248, 0.87);
   font-size: 30px;
-}; /*adjusts the positioning of the carousel caption text pon small view ports*/
+}
+    
 }
