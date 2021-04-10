@@ -31,10 +31,6 @@ body{
     padding: 5px;
 }
 
-ul {
-    list-style-type: none;
-}
-
 /*Footer*/
 .footer{
     background-color: black;   
@@ -51,8 +47,23 @@ ul {
     color: rgba(252, 248, 248, 0.87);
 }
 
-/*Home page*/
 
+/* scroll to top button*/
+.page-header {  /* this affects how the scroll to top button looks*/
+  position: fixed;
+  left: 90%;  
+  bottom: 30%;  
+  color: rgba(252, 248, 248, 0.87);
+  font-size: 20px;
+  border: 2px white solid;
+  background-color: rgba(158, 100, 12, 0.082);
+  width: 10rem;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/*Home page*/
 
 .left-side, .right-side{
     height: 100vh;
@@ -84,31 +95,9 @@ ul {
     font-size: 30px;
 }
 
-/* Reviews*/
+/* Reviews pages*/
 
 
-
-.rev-box-header{ /* for the quasi header*/
-    height: 5vh;
-    width: 100%;    
-    background-color: rgba(139, 131, 23, 0.041);
-    position: -webkit-sticky;
-  
-    
-}
-
-.rev-title-header{ /* this is the title text, to show the user which page they are on*/
-position: absolute;
-  margin-left:auto;
-  margin-right: auto;
-  top: 120%;  
-  color: rgba(252, 248, 248, 0.897);
-  font-size: 30px;
-  border: 2px;
-  background-color: rgba(103, 106, 110, 0.05);
-  width: 15rem;
-  text-align: center;  
-}
 
 .rev-box{ /* for the reviews pages*/
     height: 85vh;
@@ -128,7 +117,7 @@ position: absolute;
 .rev-caption {  /* this affects how the read more button looks*/
   position: absolute;
   left: 45%;  
-  bottom: 15%;  
+  bottom: 30%;  
   color: rgba(252, 248, 248, 0.87);
   font-size: 20px;
   border: 2px white solid;
@@ -160,6 +149,8 @@ position: absolute;
  text-overflow: ellipsis;
  text-align: center;
 }
+
+
 
 .rev-title{ /* this is the title for each review, in digital and tabletop pages*/
 position: absolute;
@@ -329,9 +320,15 @@ input[type=submit]:hover {
 }
 
 
+/* media screen queries*/
 
-
-
+@media only screen and (max-width: 1024px){
+    .navbar-brand{
+    margin-left: 50px;/*pushes the logo from the left*/
+}
+.page-header {  /*this affects how the scroll to top button looks*/  
+  left: 70%; 
+}
 
 @media only screen and (max-width: 768px){
     .left-side, .right-side, .rev-box{/* makes the two images stack ontop of each other instead of side by side*/
@@ -354,7 +351,7 @@ input[type=submit]:hover {
         top: 10%;
     }
 
-    .rev-intro{ /*makes the intro bos disappear on smaller viewports*/
+    .rev-intro{ /*makes the intro box disappear on smaller viewports*/
         display: none;
     }
 
@@ -362,22 +359,25 @@ input[type=submit]:hover {
         left: 35%;
    }
 
+   .page-header{/*this affects how the scroll to top button looks*/
+        left:60%;
+    }
+
            
 }
 
-@media only screen and (max-width: 1024px){
-    .navbar-brand{
-    margin-left: 50px;/*pushes the logo from the left*/
-}}
 
 @media only screen and (max-width: 360px){
     .rev-title-header{
     font-size: 20px;
 }
+    .page-header{/*this affects how the scroll to top button looks*/
+        left:50%;
+    }
 }
 
 @media only screen and (max-width: 280px){
-    .carousel-caption {  /*adjusts the positioning of the carousel caption text pon small view ports*/
+    .carousel-caption {  /*adjusts the positioning of the carousel caption text on small view ports*/
   position: absolute;
   top: 40%;
   right: 15%;
@@ -386,5 +386,9 @@ input[type=submit]:hover {
   color: rgba(252, 248, 248, 0.87);
   font-size: 30px;
 }
+
+.page-header{/*this affects how the scroll to top button looks*/
+        left:25%;
+    }
     
 }
