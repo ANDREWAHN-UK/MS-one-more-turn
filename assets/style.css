@@ -75,6 +75,7 @@ ul {
   font-size: 30px;
 }
 
+
 .tt-caption{
     color: white;
 }
@@ -173,6 +174,7 @@ position: absolute;
     background-repeat: no-repeat;
 }
 
+/*this is the image used in the full CK2 review, styled to keep a consistent width*/
 #got-image {
     max-width: 100%;
 }
@@ -339,6 +341,19 @@ input[type=submit]:hover {
            
 }
 
-@media only screen and (max-width: 1024px){.navbar-brand{
+@media only screen and (max-width: 1024px){
+    .navbar-brand{
     margin-left: 50px;/*pushes the logo from the left*/
 }}
+
+@media only screen and (max-width: 280px){
+    .carousel-caption {  /* this affects how the captions look ontop of the images*/
+  position: absolute;
+  top: 40%;
+  right: 15%;
+  bottom: 40%;
+  left: 15%;  
+  color: rgba(252, 248, 248, 0.87);
+  font-size: 30px;
+}; /*adjusts the positioning of the carousel caption text pon small view ports*/
+}
