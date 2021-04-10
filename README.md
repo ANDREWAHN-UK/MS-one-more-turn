@@ -46,7 +46,7 @@ c. Homepage. The intent of the homepage is to provide a visually appealing but c
 of the website and 2 images that link to the review sections of the website.
 
 d. Review sections- There are 2 review sections, one for digital (video, computer, console) games, and the others for tabletop (card,boardgames) games.  
-These will have a selection of game reviews, and the layout will be rows. When clicked upon, user is taken to a dedicated page for that review.
+These will have a selection of game reviews, and the layout will be rows. When clicked upon, user is taken to a dedicated page for that review. At the top of the page there is a title and a brief introduction, and on each page there is a scroll to top button, to aid navigation.
 
 e. About. This is a simple page that outlines the philosphy of the website.
 
@@ -54,9 +54,9 @@ f. Contact. This page will be a simple contact/request for review form, with all
 
 g. placeholder review - this is linked to reviews that are not yet complete, as it will take time to create proper reviews.
 
-f. thankyou page. This page exists to thankl users who fill out the contact form.
+f. thankyou page. This page exists to thank users who fill out the contact form.
 
-The minimal viable product for this website is a (header) b (footer) c (homepage) d (review paqges) and e (contact page.)
+The minimal viable product for this website is a (header) b (footer) c (homepage) d (review pages) and e (contact page.)
 
 5. Wireframes:
 ________________________________________
@@ -82,8 +82,12 @@ When I started the website, Github and Gitpod were experiencing some issues, so 
 7. Testing:
 ________________________________________
 
-I used Opera and Chrome, and tested it using the dev tools there, accessed in chrome by right click + inspect + toggle device toolbar + select various devices. 
+I used Opera, Edge, Firefox and Chrome, and tested it using the dev tools there.
+
+Dev tools in chrome by right click + inspect + toggle device toolbar + select various devices. 
 In Opera right click + inspect + toggle device toolbar +  select various devices. 
+In firefox, right click + responsive design mode (ctrl+shift+m) + select various devices. NB that firefox displays this all at the bottom, not the right side like the others.
+In Edge right click + inspect + toggle device emulation + select various devices. 
 
 Screenshots showing the testing are available from the "screenshots for testing" folder:
 
@@ -101,15 +105,71 @@ I solved this by using "no gutters" when constructing the rows and columns.
 Lastly, the images in the review pages were not displaying correctly on Tablets, namely the Kindle HDX and Ipad, but not the Ipad Pro.
 Experimenting revealed that "col-md-6" was causing images to take up only half the row, so removing it fixed this issue.
 
+Feedback from the initial submission indicated some issues with errant html commenting in the deployed code, alongside issues with viewports, especially on the IPad and Kindle formats. These have been resolved.
+
+Further testing was done with friends and family, using fresh eyes to test the UX, most notably ease of naviagtion between pages, and visibility of text against colopured backgrounds. 
 8. Deployment:
 ________________________________________
 
-I used Github pages and Netlify to deploy the website. Github is the preferred website for the Coding institute, and I chose Netlify because it connects very easily to Github, 
+
+GITHUB: https://andrewahn-uk.github.io/MS-one-more-turn/
+
+NETLIFY: https://naughty-khorana-5e9348.netlify.app
+
+I used Github pages and Netlify to deploy the website.
+
+To deploy the website:
+1-  go to github.com and log in
+2- locate the list of repositories, top left of screen
+3- click on the required repository, in this case https://github.com/ANDREWAHN-UK/MS-one-more-turn
+4- on the top, locate the setting button, clcik on this
+5- scroll down until you see the heading "github pages," click on the link
+6- the url in your browser should read: https://github.com/ANDREWAHN-UK/MS-one-more-turn/settings/pages
+7- under "source" there should be a message like this: Source
+GitHub Pages is currently disabled. Select a source below to enable GitHub Pages for this repository.
+8- select the appropriate source (choose branch: master) and click save.
+9- there will no be a message that reads:" Your site is ready to be published at" followed by a link, in this case:
+https://andrewahn-uk.github.io/MS-one-more-turn/
+10- click on it to make sure it works 
+
+NB, at step 7, if your page has been published before, the message will read:
+"Your site is published at https://andrewahn-uk.github.io/MS-one-more-turn/"
+
+
+
+ Github is the preferred website for the Coding institute, and I chose Netlify because it connects very easily to Github, 
 and is thus a very suitable backup.
 
-Github: https://andrewahn-uk.github.io/MS-ONE/index.html
+To create a fork/backup:
 
-Netlify: https://mystifying-poitras-75f386.netlify.app
+Github does not currently allow you to directly fork your own repo, but there is a workaround:
+
+1- make a note of the url of your repo, e.g. "https://github.com/ANDREWAHN-UK/MS-one-more-turn"
+2- at the very top right of the page, next to your login image and the bell icon, there is a + button, click this
+3- click "import repository"
+4- Where it says "Your old repository’s clone URL," put in the url of your repository, e.g. "https://github.com/ANDREWAHN-UK/MS-one-more-turn"
+5- In the "repository name field" choose an appropriate name for your new repository
+6- Click "begin import"
+7 - You now have a copy of your original repository, with all commit history and branches!
+
+However, be aware that this is not a real fork, and so you cannot do pull requests back and forth.
+
+
+
+
+For netlify:
+1- got to https://app.netlify.com/
+2- log in using one of the available options (I used github)
+3- Once logged in, click the button that says "new site from git"
+4- Choose the appropriate git saource, in this case github
+5 - A selection of the releevant repositories will show up, click the desired one, in this case "ANDREWAHN-UK/MS-one-more-turn"
+6- On the next page, when you are happy with the options, click "deploy site"
+7 -Once the websiter has been deployed, on the next page, near the top, your website name and url will be available, in this case:
+
+naughty-khorana-5e9348
+https://naughty-khorana-5e9348.netlify.app
+
+8. Click on it to make sure it works.
 
 I have noticed that Github occasionally doesn't update properly, but in my limited experience Netlify has yet to fail.
 
