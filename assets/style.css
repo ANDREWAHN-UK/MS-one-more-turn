@@ -31,6 +31,10 @@ body{
     padding: 5px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /*Footer*/
 .footer{
     background-color: black;   
