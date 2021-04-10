@@ -86,6 +86,32 @@ ul {
 
 /* Reviews*/
 
+
+
+.rev-box-header{ /* for the quasi header*/
+    height: 20vh;
+    width: 100%;    
+    background-color: rgba(139, 132, 23, 0.705);
+    position: sticky;
+    
+}
+
+.rev-intro-header {  /* this affects how the textbox at the top of the page looks*/
+  position: absolute;
+  left: 10%;
+  right: 15%;
+  bottom: 20%;  
+  color: rgb(252, 248, 248);
+  font-size: 20px;
+  font-weight: 5;
+  border: none;
+  background-color: rgba(103, 106, 110, 0.055);
+  width: 80vw;
+  height: 20%;   
+ overflow: hidden;
+ text-overflow: ellipsis;
+ text-align: center;
+}
 .rev-box{ /* for the reviews pages*/
     height: 80vh;
     width: 100%;    
