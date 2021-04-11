@@ -60,7 +60,7 @@ a {
   color: rgba(252, 248, 248, 0.87);
   font-size: 40px;
   border: 2px white solid;
-  background-color: rgb(131, 48, 37);
+  background-color: rgb(20, 20, 20);
   width: 6rem;
   margin-left:auto;
   margin-right: auto;
@@ -75,7 +75,7 @@ a {
   color: rgba(252, 248, 248, 0.87);
   font-size: 30px;
   border: 2px white solid;
-  background-color: rgb(131, 48, 37);
+  background-color: rgb(20, 20, 20);
   width: 7rem;
   margin-left:auto;
   margin-right: auto;
@@ -89,7 +89,7 @@ a {
   color: rgba(252, 248, 248, 0.87);
   font-size: 28px;
   border: 2px white solid;
-  background-color: rgb(131, 48, 37);
+  background-color: rgb(20, 20, 20);
   width: 7rem;
   margin-left:auto;
   margin-right: auto;
@@ -370,7 +370,7 @@ input[type=submit]:hover {
     width: 100%;
     }
 
-    .navbar, .navbar-toggler, .footer{ background:rgb(131, 48, 37);}/* changes colours of header and footer*/
+    .navbar, .navbar-toggler, .footer, .page-header, .to-review-button, .to-review-button-two { background:rgb(131, 48, 37);}/* changes colours of header, footer, scroll to and go to buttons*/
 
     .navbar-brand p{/*removes the tag line "reviews by gamers..."*/
         display: none;
