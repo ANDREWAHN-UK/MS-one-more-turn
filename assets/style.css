@@ -3,6 +3,10 @@ body{
     margin: 0;
     font-family: "Exo", sans-serif;
 }
+
+a {
+    color: inherit;
+}
 /*nav bar stuff*/
 .navbar{ 
     background:rgb(20, 20, 20);       
