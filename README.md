@@ -14,14 +14,12 @@ d.	As a general user, I want to be able to navigate through the page easily, and
 ________________________________________
 To lead the user to read Andrew’s reviews and contact/connect with Andrew on social media/through a contact form if user is a potential collaborator or client.
 To lead the user to read Andrew’s reviews and contact/connect with Andrew on social media/through a contact form if user is a potential collaborator or client
-
 4.	Typography and colour scheme:
 ________________________________________
 a. Font - Exo and Sans serif. This is because they worked well in the Code Institute models (i.e., easy to read)
 b. Icons - taken from Font Awesome, mainly in order to comply with existing conventions, e.g., a house or similar to represent the Homepage.
 c. Colours – muted use of colours throughout, in order to draw visual attention to the review sections of the website. Red, white and black are the primary colours.
 d. Images – photos and screenshots taken of games and game accessories (e.g. dice) to be used as icons for the relevant games, and background images for the relevant sections of the website. In CSS I used a filter to darken the images, so any text displayed stands out better. 
- 
  5. Features:
 ________________________________________
 a. Header to consist of the website name, along with links to the Home Page, Video games review section, Tabletop games review section, About webpage and a contact page (essential!). In the future, this may be expanded to include Playthroughs, forum, gallery and podcast sections. (non-essential)
@@ -83,14 +81,15 @@ ii.	Potential game buyer
 a.	Upon entering the site, users are greeted with a visually attractive homepage, and a clearly visible and easy to navigate header and footer.
 b.	The homepage immediately establishes the 2 purposes of the website.
 c.	In the tabletop and digital review sections, each individual review is clearly indicated, with introductory text to serve as a synopsis and taster for the reader.
-d.	Choosing a review opens up a separate page, with a back to top button to enable easy scrolling back to the top, and a back to tabletop/digital games button, so allow the user to easily return to main games review area.
+d.	Choosing a review opens up a separate page, with a back to top button to enable easy scrolling back to the top, and a back to tabletop/digital games button, so allow the user to easily return to main games review area.  The colour scheming for these accords with the header and footer, to maintain visual consistency.
+e.	
 iii.	Potential collaborator
 a.	The header has a prominent “contact” button, allowing users to submit review requests.
 iv.	General users:
 a.	Upon entering the site, users are greeted with a visually attractive homepage, and a clearly visible and easy to navigate header and footer.
 b.	The homepage immediately establishes the 2 purposes of the website.
 c.	On the tabletop and digital reviews sections, there is a short introduction at the top of the page, so users can easily identify where they are, and the purpose of that page.
-d.	There is also a scroll to top button that is always easily visible and accessible, which allows users to always get back to the top of the page, no mater how far down they have scrolled. This is also useful for the future, as more reviews get added.
+d.	There is also a scroll to top button that is always easily visible and accessible, which allows users to always get back to the top of the page, no mater how far down they have scrolled. This is also useful for the future, as more reviews get added. The colour scheming for these accords with the header and footer, to maintain visual consistency.
 e.	In individual reviews, there is a back to top and a back to tabletop/digital reviews button.
 f.	In the placeholder review page (where users are directed if there is no review yet) there are 2 buttons, to easily direct the user to either the tabletop or the digital review section.
 Further Testing:
@@ -98,29 +97,32 @@ There were several buttons introduced to aid navigation:
 •	Scroll to top (Crusader Kings 2, Tabletop, Digital sections)
 •	Return to digital reviews section (in placeholder, Crusader Kings 2 sections)
 •	Return to tabletop reviews section (in placeholder section)
-These have been tested and adjusted at various viewports, so there is consistent styling, specifically that the text is removed, and a heavier reliance placed on icons at smaller viewports.
+These have been tested and adjusted at various viewports, so there is consistent styling, specifically that the text is removed, and a heavier reliance placed on icons at smaller viewports. The colour scheming for these accords with the header and footer, to maintain visual consistency.
+
 I used Opera, Edge, Firefox and Chrome, and tested this, along with general usability using the dev tools there.
 Dev tools in chrome by right click + inspect + toggle device toolbar + select various devices.
  In Opera right click + inspect + toggle device toolbar + select various devices. I
 In firefox, right click + responsive design mode (ctrl+shift+m) + select various devices. NB that firefox displays this all at the bottom, not the right side like the others. 
 In Edge right click + inspect + toggle device emulation + select various devices.
-
 Screenshots showing the testing are available from the "screenshots for testing" folder:
 https://github.com/ANDREWAHN-UK/MS-ONE/blob/master/screenshots-for-testing
-
 I used https://validator.w3.org to validate the html and https://jigsaw.w3.org/css-validator/ to validate the CSS. 
 There were some minor errors (like lone div tags) in the HTMl but the CSS threw up very many errors, ALL of them related to Bootstrap, saying things like "ms flex box not recognised."
-
-
 I did not encounter many bugs the second time around, although I did have some issues positioning the text form for the contact webpage. I solved that by initially setting all margins to auto, and using "justify content center," "align items center (when needed,)" and then adjusting the margins and padding to get the desired appearance.
 I also had some issues with gaps appearing between images, with white space showing, which was not wanted. I solved this by using "no gutters" when constructing the rows and columns.
 Lastly, the images in the review pages were not displaying correctly on Tablets, namely the Kindle HDX and iPad, but not the iPad Pro. Experimenting revealed that "col-md-6" was causing images to take up only half the row, so removing it fixed this issue.
-
 Feedback from the initial submission indicated some issues with errant html commenting in the deployed code, alongside issues with viewports, especially on the iPad and Kindle formats. These have been resolved. There was an image in the crusader Kings 2 review that was causing problems on smaller viewports, setting the CSS here to max-width: 100% solved the problem.
-
 Further testing was done with friends and family, using fresh eyes to test the UX, most notably ease of navigation between pages, and visibility of text against coloured backgrounds.
 Results of this testing led to the introduction of the aforementioned buttons and an introduction at the start of the Tabletop and Digital reviews sections.
 There were some readability issues with the Crusader Kings 2 review, rectified by adjusting the margin-top and the padding properties, also tested on all viewports.
+
+
+
+
+
+
+
+
 
 8. Deployment:
 ________________________________________
