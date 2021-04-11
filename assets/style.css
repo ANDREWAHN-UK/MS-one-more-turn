@@ -60,7 +60,7 @@ a {
   color: rgba(252, 248, 248, 0.87);
   font-size: 40px;
   border: 2px white solid;
-  background-color: rgba(158, 100, 12, 0.486);
+  background-color: rgb(131, 48, 37);
   width: 6rem;
   margin-left:auto;
   margin-right: auto;
@@ -75,7 +75,7 @@ a {
   color: rgba(252, 248, 248, 0.87);
   font-size: 30px;
   border: 2px white solid;
-  background-color: rgba(158, 100, 12, 0.486);
+  background-color: rgb(131, 48, 37);
   width: 7rem;
   margin-left:auto;
   margin-right: auto;
@@ -89,7 +89,7 @@ a {
   color: rgba(252, 248, 248, 0.87);
   font-size: 28px;
   border: 2px white solid;
-  background-color: rgba(158, 100, 12, 0.486);
+  background-color: rgb(131, 48, 37);
   width: 7rem;
   margin-left:auto;
   margin-right: auto;
@@ -370,7 +370,7 @@ input[type=submit]:hover {
     width: 100%;
     }
 
-    .navbar, .navbar-toggler, .footer{ background:#773415;}/* changes colours of header and footer*/
+    .navbar, .navbar-toggler, .footer{ background:rgb(131, 48, 37);}/* changes colours of header and footer*/
 
     .navbar-brand p{/*removes the tag line "reviews by gamers..."*/
         display: none;
@@ -396,6 +396,17 @@ input[type=submit]:hover {
    .page-header, .to-review-button, .to-review-button-two {/*this affects how the scroll to top button looks*/
         left:75%;
     }
+    .page-header p {/**this removes the paragraph text**/
+        display:none;
+    }
+
+     .to-review-button p{/*this removes the paragraph text*/
+        display:none;
+     }
+
+     .to-review-button-two p{ /*this removes the paragraph text*/
+        display:none;
+     }
 
            
 }
@@ -412,7 +423,7 @@ input[type=submit]:hover {
         width: 5rem;
         top: 15%; 
     }
-    .page-header p {/*this affects how the scroll to top button looks*/
+    .page-header p {/**this removes the paragraph text**/
         display:none;
     }
 
