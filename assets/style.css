@@ -408,7 +408,7 @@ input[type=submit]:hover {
         width: 5rem;
         top: 15%; 
     }
-    .page-header p{/*this affects how the scroll to top button looks*/
+    .page-header p {/*this affects how the scroll to top button looks*/
         display:none;
     }
 
