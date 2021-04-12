@@ -200,6 +200,7 @@ a {
   border: 2px white solid;
   background-color: rgba(20,20,20);
   width: 10rem;
+  height: 2rem;
   margin-left:auto;
   margin-right: auto;
   text-align: center;
@@ -349,19 +350,28 @@ input[type=submit]:hover {
     width: 100%;
 }
 
-/*Review placeholder page. Same format as the about page, different image.*/
-
-
-
-
 /* media screen queries*/
 
 @media only screen and (max-width: 1024px){
     .navbar-brand{
     margin-left: 50px;/*pushes the logo from the left*/
 }
-.page-header, .to-review-button, .to-review-button-two {  /*this affects how the scroll to top etc buttons look*/  
-  left: 85%; 
+
+    .page-header, .to-review-button, .to-review-button-two { 
+     /*this affects how the scroll to top etc buttons look*/  
+    left: 90%; 
+}
+
+    #contact-form{
+        left: 10%;
+        top: 10%;
+    }
+
+    .rev-caption{
+        width: 12rem;/*adjust the width of the read more button on smaller viewports*/
+        height: 3rem;
+   }
+   
 }
 
 @media only screen and (max-width: 768px){
@@ -386,12 +396,10 @@ input[type=submit]:hover {
         top: 10%;
     }
 
-    .rev-intro{ /*makes the intro box disappear on smaller viewports*/
-        display: none;
-    }
-
+    
     .rev-caption{ /*shifts the read more button left on smaller viewports*/
-        left: 35%;
+        left: 40%;
+        width: 10rem;
    }
 
    .page-header, .to-review-button, .to-review-button-two {/*this affects how the scroll to top button looks*/
@@ -437,12 +445,23 @@ input[type=submit]:hover {
         display:none;
      }
 
-     .rev-caption{ /*shifts the read more button left on smaller viewports*/
-        left: 30%;
+     .rev-caption{
+        left: 35%; /*shifts the read more button left on smaller viewports*/
+        width: 10rem;/*adjust the width of the read more butotn on smaller viewports*/
    }
 
 }
 
+@media only screen and (max-width: 375px){
+    .rev-title-header{
+        font-size: 20px;
+}
+    .page-header{
+    left: 75%;
+}
+.rev-caption{
+        width: 8rem;/*adjust the width of the read more butotn on smaller viewports*/
+   }
 @media only screen and (max-width: 360px){
     .rev-title-header{
         font-size: 20px;
@@ -450,13 +469,7 @@ input[type=submit]:hover {
     .page-header{
     left: 75%;
 }
-    @media only screen and (max-width: 320px){/*this adjustment is specific to the iphone 5/SE*/
     
-    .rev-caption{/*reduces the width of the read more button*/
-        width: 8rem;
-    }
-    
-}
 
 @media only screen and (max-width: 280px){
     .carousel-caption { 
@@ -471,7 +484,7 @@ input[type=submit]:hover {
     }
     .page-header, .to-review-button, .to-review-button-two{
         /*this affects how these navigation aid buttons look*/
-        left:65%;
+        left:70%;
         width: 3rem;
         bottom: 10%; 
         height: 3rem;
