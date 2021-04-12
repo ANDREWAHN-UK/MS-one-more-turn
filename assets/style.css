@@ -194,8 +194,9 @@ a {
 
 .rev-caption {  /* this affects how the read more button looks*/
   position: absolute;
+  top: 80%;
    left: 40%;
-  bottom: 10%;  
+  bottom: 20%;  
   color: rgba(252, 248, 248, 0.87);
   font-size: 20px;
   border: 2px white solid;
@@ -220,16 +221,16 @@ a {
   right: 15%;
   bottom: 20%;  
   color: rgb(252, 248, 248);
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 500;
   border: none;
   background-color: rgba(103, 106, 110, 0.055);
   width: 80vw;
-  height: 30%;   
- overflow: hidden;
- text-overflow: ellipsis;
+  height: 25%;   
+   overflow: auto;
+  text-overflow: ellipsis;
  text-align: center;
-}
+ }
 
 
 
@@ -237,7 +238,7 @@ a {
 position: absolute;
   margin-left:auto;
   margin-right: auto;
-  top: 20%;  
+  top: 10%;  
   color: rgba(252, 248, 248, 0.897);
   font-size: 30px;
   border: none;
@@ -391,6 +392,7 @@ input[type=submit]:hover {
 
     .rev-intro{ /*makes the intro box slightly larger on smaller viewports*/
         height: 50%; 
+        font-size: 18px;
     }
 
     #contact-form{
@@ -452,6 +454,10 @@ input[type=submit]:hover {
         width: 10rem;/*adjust the width of the read more butotn on smaller viewports*/
    }
 
+    .rev-intro{ /*makes the intro box slightly larger on smaller viewports*/
+        height: 40%; 
+    }
+
 }
 
 @media only screen and (max-width: 375px){
@@ -493,6 +499,10 @@ input[type=submit]:hover {
     }    
     .rev-caption{/*reduces the width of the read more button*/
         width: 6rem;
+        font-size: 15px;
+    }
+    .rev-intro{
+        font-size: 20px;
     }
     
 }}}
