@@ -67,7 +67,7 @@ a {
   text-align: center;
 }
 
-/* Link to digital review section button*/
+/* this button links to digital reviews*/
 .to-review-button {  /* this affects how the go to digital button looks*/
   position: fixed;
   left: 90%;  
@@ -81,7 +81,7 @@ a {
   margin-right: auto;
   text-align: center;
 }
-/* Link to tabletop review section button*/
+/* this button links to tabeltop reviews*/
 .to-review-button-two {  /* this affects how the go to tabletop button looks*/
   position: fixed;
   left: 90%;  
@@ -246,9 +246,12 @@ position: absolute;
 .about{/*contains the form group, and the text in the about page*/
     height:100vh;
     width:100%;
-    background-image: url(https://i.imgur.com/utzjzrR.jpg);
+    background-image: url(https://i.imgur.com/eYVEAcM.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    filter: brightness(80%);
+    
+
 
 }
 .text-form{ /*this is the text area*/
@@ -257,13 +260,13 @@ position: absolute;
     left: 0;    
     height:85vh;
     width:100%;
-    margin-top: 5%;
-    background-color: rgba(252, 248, 248, 0.438);
-    color: black;
+    margin-top: 10%;
+    background-color: rgba(252, 248, 248, 0);
+    color: white;
     overflow: scroll;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: 20px;
+    padding: 10%;    
+    font-size: 20px;   
+    font-weight: 500;    
 }
 
 .form-group img{
@@ -346,6 +349,21 @@ input[type=submit]:hover {
     background-image: url(https://i.imgur.com/v18Ek2D.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+.placeholder-text-form{ /*this is the text area*/
+    position: absolute;  
+    top: 0;  
+    left: 0;    
+    height:85vh;
+    width:100%;
+    margin-top: 10%;
+    background-color: rgba(252, 248, 248, 0.445);
+    color: black;
+    overflow: scroll;
+    padding: 10%;    
+    font-size: 20px;   
+    font-weight: 500;    
 }
 
 .placeholder img{
