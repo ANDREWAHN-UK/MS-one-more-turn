@@ -198,7 +198,7 @@ a {
   color: rgba(252, 248, 248, 0.87);
   font-size: 20px;
   border: 2px white solid;
-  background-color: rgba(103, 106, 110, 0.76);
+  background-color: rgba(20,20,20);
   width: 10rem;
   margin-left:auto;
   margin-right: auto;
@@ -285,45 +285,7 @@ position: absolute;
 }
 
 
-/*About*/
 
-/* Use the same format for the individual review pages*/
-
-.about{/*contains the form group, and the text in the about page*/
-    height:100vh;
-    width:100%;
-    background-image: url(https://i.imgur.com/eYVEAcM.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    filter: brightness(80%);
-    
-
-
-}
-.text-form{ /*this is the text area*/
-    position: absolute;  
-    top: 0;  
-    left: 0;    
-    height:85vh;
-    width:100%;
-    margin-top: 10%;
-    background-color: rgba(252, 248, 248, 0);
-    color: white;
-    overflow: scroll;
-    padding: 10%;    
-    font-size: 20px;   
-    font-weight: 500;    
-}
-
-.form-group img{
-    height:100%;
-    width: 100%;
-}
-
-.about img{ 
-    width: 100%;
-    height:100%;
-}
     /*Contact page*/
 
 input[type=text], select, textarea {
@@ -408,7 +370,8 @@ input[type=submit]:hover {
     width: 100%;
     }
 
-    .navbar, .navbar-toggler, .footer, .page-header, .to-review-button, .to-review-button-two { background:rgb(131, 48, 37);}/* changes colours of header, footer, scroll to and go to buttons*/
+    .navbar, .navbar-toggler, .footer, .page-header, .to-review-button, .to-review-button-two, .rev-caption { background:rgb(131, 48, 37);}
+    /* changes colours of header, footer, read more, scroll to and go to buttons*/
 
     .navbar-brand p{/*removes the tag line "reviews by gamers..."*/
         display: none;
@@ -434,15 +397,15 @@ input[type=submit]:hover {
    .page-header, .to-review-button, .to-review-button-two {/*this affects how the scroll to top button looks*/
         left:75%;
     }
-    .page-header p {/**this removes the paragraph text**/
+    .page-header p {/*this removes the word top from the scroll up button*/
         display:none;
     }
 
-     .to-review-button p{/*this removes the paragraph text*/
+     .to-review-button p{/*this removes the word digital or tabletop from this*/
         display:none;
      }
 
-     .to-review-button-two p{ /*this removes the paragraph text*/
+     .to-review-button-two p{ /*this removes the word digital or tabletop from this*/
         display:none;
      }
 
@@ -452,8 +415,9 @@ input[type=submit]:hover {
 @media only screen and (max-width: 540px){
     .page-header,  .to-review-button-two {/*this affects how these navigation aid buttons look*/
         left:70%;
-        width: 5rem;
+        width: 3rem;
         bottom: 10%; 
+        height: 3rem;
     }
 
     .to-review-button{
@@ -473,31 +437,47 @@ input[type=submit]:hover {
         display:none;
      }
 
+     .rev-caption{ /*shifts the read more button left on smaller viewports*/
+        left: 30%;
+   }
+
 }
 
 @media only screen and (max-width: 360px){
     .rev-title-header{
-    font-size: 20px;
+        font-size: 20px;
 }
+    .page-header{
+    left: 75%;
+}
+    @media only screen and (max-width: 320px){/*this adjustment is specific to the iphone 5/SE*/
+    
+    .rev-caption{/*reduces the width of the read more button*/
+        width: 8rem;
+    }
     
 }
 
 @media only screen and (max-width: 280px){
-    .carousel-caption {  /*adjusts the positioning of the carousel caption text on small view ports*/
-  position: absolute;
-  top: 40%;
-  right: 15%;
-  bottom: 40%;
-  left: 15%;  
-  color: rgba(252, 248, 248, 0.87);
-  font-size: 30px;
+    .carousel-caption { 
+         /*adjusts the positioning of the carousel caption text on small view ports*/
+        position: absolute;
+        top: 40%;
+        right: 15%;
+        bottom: 40%;
+        left: 15%;  
+        color: rgba(252, 248, 248, 0.87);
+        font-size: 30px;
     }
-    .page-header, .to-review-button, .to-review-button-two{/*this affects how these navigation aid buttons look*/
-        left:70%;
+    .page-header, .to-review-button, .to-review-button-two{
+        /*this affects how these navigation aid buttons look*/
+        left:65%;
         width: 3rem;
         bottom: 10%; 
         height: 3rem;
+    }    
+    .rev-caption{/*reduces the width of the read more button*/
+        width: 6rem;
     }
     
-    
-}}
+}}}
