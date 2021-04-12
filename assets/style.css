@@ -130,7 +130,15 @@ a {
 /* Reviews pages*/
 
 
+.placeholder-rev-box {
+    height: 95vh;
+    width: 100%;   
+}
 
+.placeholder-rev-box img{ 
+    width: 100%;
+    height:100%;
+}
 .rev-box{ /* for the reviews pages*/
     height: 85vh;
     width: 100%;    
@@ -343,33 +351,7 @@ input[type=submit]:hover {
 
 /*Review placeholder page. Same format as the about page, different image.*/
 
-.placeholder{/*contains the form group*/
-    height:100vh;
-    width:100%;
-    background-image: url(https://i.imgur.com/v18Ek2D.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
 
-.placeholder-text-form{ /*this is the text area*/
-    position: absolute;  
-    top: 0;  
-    left: 0;    
-    height:85vh;
-    width:100%;
-    margin-top: 10%;
-    background-color: rgba(252, 248, 248, 0.445);
-    color: black;
-    overflow: scroll;
-    padding: 10%;    
-    font-size: 20px;   
-    font-weight: 500;    
-}
-
-.placeholder img{
-    height: 100%;
-    width: 100%;
-}
 
 
 /* media screen queries*/
@@ -379,7 +361,7 @@ input[type=submit]:hover {
     margin-left: 50px;/*pushes the logo from the left*/
 }
 .page-header, .to-review-button, .to-review-button-two {  /*this affects how the scroll to top etc buttons look*/  
-  left: 90%; 
+  left: 85%; 
 }
 
 @media only screen and (max-width: 768px){
