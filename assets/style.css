@@ -140,7 +140,7 @@ a {
     height:100%;
 }
 
-.placeholder-rev-box-text {  /* this affects the text for the placeholder and about pages*/
+.placeholder-rev-box-text {  /* this affects the text for the placeholder pages*/
   position: absolute;
   top: 10%;
   left: 10%;
@@ -158,7 +158,7 @@ a {
  text-align: left;
 }
 
-.about-rev-box-text{
+.about-rev-box-text{ /* this affects the text for the placeholder pages*/
     position: absolute;
   top: 10%;
   left: 10%;
@@ -171,7 +171,8 @@ a {
   background-color: rgba(103, 106, 110, 0.055);
   width: 80vw;
   height: 80%;   
- overflow: scroll;
+ overflow-x: hidden;
+ overflow-y: scroll;
  text-overflow: ellipsis;
  text-align: left;
 }
@@ -193,8 +194,8 @@ a {
 
 .rev-caption {  /* this affects how the read more button looks*/
   position: absolute;
-  left: 45%;  
-  bottom: 25%;  
+   left: 40%;
+  bottom: 10%;  
   color: rgba(252, 248, 248, 0.87);
   font-size: 20px;
   border: 2px white solid;
@@ -214,16 +215,17 @@ a {
 .rev-intro {  /* this affects how the introductory textbox and text look*/
     /* this is based on the placeholder-review-text-box*/
   position: absolute;
+  top:30%;
   left: 10%;
   right: 15%;
-  bottom: 30%;  
+  bottom: 20%;  
   color: rgb(252, 248, 248);
   font-size: 20px;
   font-weight: 500;
   border: none;
   background-color: rgba(103, 106, 110, 0.055);
   width: 80vw;
-  height: 20%;   
+  height: 30%;   
  overflow: hidden;
  text-overflow: ellipsis;
  text-align: center;
@@ -235,7 +237,7 @@ a {
 position: absolute;
   margin-left:auto;
   margin-right: auto;
-  top: 30%;  
+  top: 20%;  
   color: rgba(252, 248, 248, 0.897);
   font-size: 30px;
   border: none;
@@ -375,7 +377,7 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 768px){
-    .left-side, .right-side, .rev-box{/* makes the two images stack ontop of each other instead of side by side*/
+    .left-side, .right-side, .rev-box {/* makes the two images stack ontop of each other instead of side by side*/
     height: 60vh;
     width: 100%;
     }
