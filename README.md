@@ -3,23 +3,35 @@ Milestone Project 1
 1.	Purpose of the project:
 ________________________________________
 The purpose of this project is to provide a game review website that serves to inform the user of Andrew’s reviews, and invite them to collaborate/request future reviews. The idea for this website is based on a blog that I started regarding computer games, using Weebly. I didn’t have any web development skills when I created the blog, and once I learned HTML and CSS, updating and upgrading my blog into a real website was the first thing that occurred to me. It started life as “grababrew” then was changed to “One more Turn” which I felt more adequately represents the feeling you have when a game is really good, and you don’t want to stop playing.
+
 2.	User Goals/stories:
 ________________________________________
 a.	As a Potential Employer for a Coding Role, I want to view Andrew’s website, to see how he performs as a Full stack developer. I want to be able to navigate the website and compare it to others, of similar scope.
+
 b.	As a Potential Game buyer, I want to understand Andrew’s perspective on games I may be interested in, in the form of reading his reviews.
+
 c.	As a Potential Collaborator, I want to be able to contact Andrew directly through the site and have easy access to his reviews and social media presence. I want to be able to submit a game review request. 
+
 d.	As a general user, I want to be able to navigate through the page easily, and not get trapped at the bottom of any single page.
 
 3.	Stakeholder Goals
 ________________________________________
 To lead the user to read Andrew’s reviews and contact/connect with Andrew on social media/through a contact form if user is a potential collaborator or client.
+
 To lead the user to read Andrew’s reviews and contact/connect with Andrew on social media/through a contact form if user is a potential collaborator or client
+
 4.	Typography and colour scheme:
 ________________________________________
+
 a. Font - Exo and Sans serif. This is because they worked well in the Code Institute models (i.e., easy to read)
+
+
 b. Icons - taken from Font Awesome, mainly in order to comply with existing conventions, e.g., a house or similar to represent the Homepage.
+
 c. Colours – muted use of colours throughout, in order to draw visual attention to the review sections of the website. Red, white and black are the primary colours.
+
 d. Images – photos and screenshots taken of games and game accessories (e.g. dice) to be used as icons for the relevant games, and background images for the relevant sections of the website. In CSS I used a filter to darken the images, so any text displayed stands out better. 
+
  5. Features:
 ________________________________________
 a. Header to consist of the website name, along with links to the Home Page, Video games review section, Tabletop games review section, About webpage and a contact page (essential!). In the future, this may be expanded to include Playthroughs, forum, gallery and podcast sections. (non-essential)
