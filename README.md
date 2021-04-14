@@ -141,7 +141,7 @@ c.	In the tabletop and digital review sections, each individual review is clearl
 
 d.	Choosing a review opens up a separate page, with a back to top button to enable easy scrolling back to the top, and a back to tabletop/digital games button, so allow the user to easily return to main games review area.  The colour scheming for these accords with the header and footer, to maintain visual consistency.
 
-e.	
+
 
 iii.	Potential collaborator
 
