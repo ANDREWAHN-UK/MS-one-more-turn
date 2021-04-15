@@ -441,7 +441,6 @@ input[type=submit]:hover {
 @media only screen and (max-width: 540px) /*Surface Duo*/{
    
     .to-digital-reviews-button, .to-tabletop-reviews-button {  /* this affects how the go to review buttons look*/
-        
         left: 7%;  
         bottom: 15%;  
         width: 14rem;
@@ -470,6 +469,10 @@ input[type=submit]:hover {
         font-size: 30px; 
     }
 
+    .soc-med i {/* style the social media icons*/
+        padding-top: 10px; 
+    } 
+    
 }
 
 @media only screen and (max-width:414px) /*iPhone 6/7/8 +* and Pixel2, Pixel2XL*/{
@@ -480,6 +483,7 @@ input[type=submit]:hover {
         height: 3rem;
         font-size: 30px; 
     }
+
     .to-digital-reviews-button, .to-tabletop-reviews-button {  /* this affects how the go to review buttons look*/
         left: 6%;  
         bottom: 14%;  
@@ -488,8 +492,13 @@ input[type=submit]:hover {
         font-size: 15px;
       
     }
+
     .to-tabletop-reviews-button {  /* this affects how the go to tabletop button looks*/
         left: 53%;  
+    }
+
+    .soc-med i {/* style the social media icons*/
+    padding: 20px;
     }
 
 }
@@ -586,6 +595,13 @@ input[type=submit]:hover {
 
     .placeholder-rev-box-text{
         font-size: 18px; 
+    }
+
+    .soc-med i {/* style the social media icons*/
+    padding: 12px;
+    padding-top: 7px;
+    font-size: 30px;
+    color: rgba(252, 248, 248, 0.87);
     }
 }
     
