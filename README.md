@@ -97,13 +97,13 @@ The minimal viable product for this website is
 ________________________________________
 The wireframes can be accessed from the "wireframes" folder, and also directly here:
 
-https://github.com/ANDREWAHN-UK/MS-ONE/blob/master/wireframes/MS1%20mobile.bmpr
+https://github.com/ANDREWAHN-UK/MS-one-more-turn/blob/a2eae712ee38fd4ea43281f81ae719c09f0d7b28/wireframes/MS1%20mobile.bmpr
 
-https://github.com/ANDREWAHN-UK/MS-ONE/blob/master/wireframes/MS1%20mobile.pdf
+https://github.com/ANDREWAHN-UK/MS-one-more-turn/blob/a2eae712ee38fd4ea43281f81ae719c09f0d7b28/wireframes/MS1%20mobile.pdf
 
-https://github.com/ANDREWAHN-UK/MS-ONE/blob/master/wireframes/MS1.bmpr
+https://github.com/ANDREWAHN-UK/MS-one-more-turn/blob/a2eae712ee38fd4ea43281f81ae719c09f0d7b28/wireframes/MS1.bmpr
 
-https://github.com/ANDREWAHN-UK/MS-ONE/blob/master/wireframes/MS1.pdf
+https://github.com/ANDREWAHN-UK/MS-one-more-turn/blob/a2eae712ee38fd4ea43281f81ae719c09f0d7b28/wireframes/MS1.pdf
 
 
 6.	### *Technology:*
@@ -237,6 +237,37 @@ Feedback from the initial submission indicated some issues with errant html comm
 The footer was not rendering well on smaller viewports, which was solved by adjusting the padding settings.
 
 #### 7.4 supported screens and browsers
+
+
+There are screenshots, available in the screenshots folder, that show the website working at fullscreen, and also at example mbile (Iphone 5) viewports.
+
+The screenshots are also available here:
+
+https://github.com/ANDREWAHN-UK/MS-one-more-turn/blob/a2eae712ee38fd4ea43281f81ae719c09f0d7b28/screenshots/full%20screen%201.jpeg
+
+https://github.com/ANDREWAHN-UK/MS-one-more-turn/blob/a2eae712ee38fd4ea43281f81ae719c09f0d7b28/screenshots/full%20screen%202.jpeg
+
+https://github.com/ANDREWAHN-UK/MS-one-more-turn/blob/a2eae712ee38fd4ea43281f81ae719c09f0d7b28/screenshots/full%20screen%203.jpeg
+
+https://github.com/ANDREWAHN-UK/MS-one-more-turn/blob/a2eae712ee38fd4ea43281f81ae719c09f0d7b28/screenshots/full%20screen%204.jpeg
+
+https://github.com/ANDREWAHN-UK/MS-one-more-turn/blob/a2eae712ee38fd4ea43281f81ae719c09f0d7b28/screenshots/full%20screen%205.jpeg
+
+https://github.com/ANDREWAHN-UK/MS-one-more-turn/blob/a2eae712ee38fd4ea43281f81ae719c09f0d7b28/screenshots/full%20screen%206.jpeg
+
+https://github.com/ANDREWAHN-UK/MS-one-more-turn/blob/a2eae712ee38fd4ea43281f81ae719c09f0d7b28/screenshots/mobile%201.jpeg
+
+https://github.com/ANDREWAHN-UK/MS-one-more-turn/blob/a2eae712ee38fd4ea43281f81ae719c09f0d7b28/screenshots/mobile%202.jpeg
+
+https://github.com/ANDREWAHN-UK/MS-one-more-turn/blob/a2eae712ee38fd4ea43281f81ae719c09f0d7b28/screenshots/mobile%20%203.jpeg
+
+https://github.com/ANDREWAHN-UK/MS-one-more-turn/blob/a2eae712ee38fd4ea43281f81ae719c09f0d7b28/screenshots/mobile%204.jpeg
+
+https://github.com/ANDREWAHN-UK/MS-one-more-turn/blob/a2eae712ee38fd4ea43281f81ae719c09f0d7b28/screenshots/mobile%205.jpeg
+
+https://github.com/ANDREWAHN-UK/MS-one-more-turn/blob/a2eae712ee38fd4ea43281f81ae719c09f0d7b28/screenshots/mobile%206.jpeg
+
+
 
 
 
