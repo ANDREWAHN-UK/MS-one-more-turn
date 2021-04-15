@@ -1,8 +1,11 @@
 
 Milestone Project 1
+
+
 1.	Purpose of the project:
 ________________________________________
 The purpose of this project is to provide a game review website that serves to inform the user of Andrew’s reviews, and invite them to collaborate/request future reviews. The idea for this website is based on a blog that I started regarding computer games, using Weebly. I didn’t have any web development skills when I created the blog, and once I learned HTML and CSS, updating and upgrading my blog into a real website was the first thing that occurred to me. It started life as “grababrew” then was changed to “One more Turn” which I felt more adequately represents the feeling you have when a game is really good, and you don’t want to stop playing.
+
 
 2.	User Goals/stories:
 ________________________________________
@@ -14,11 +17,13 @@ c.	As a Potential Collaborator, I want to be able to contact Andrew directly thr
 
 d.	As a general user, I want to be able to navigate through the page easily, and not get trapped at the bottom of any single page.
 
+
 3.	Stakeholder Goals
 ________________________________________
 To lead the user to read Andrew’s reviews and contact/connect with Andrew on social media/through a contact form if user is a potential collaborator or client.
 
 To lead the user to read Andrew’s reviews and contact/connect with Andrew on social media/through a contact form if user is a potential collaborator or client
+
 
 4.	Typography and colour scheme:
 ________________________________________
@@ -31,7 +36,8 @@ c. Colours – muted use of colours throughout, in order to draw visual attentio
 
 d. Images – photos and screenshots taken of games and game accessories (e.g. dice) to be used as icons for the relevant games, and background images for the relevant sections of the website. In CSS I used a filter to darken the images, so any text displayed stands out better. 
 
- 5. Features:
+
+5. Features:
 ________________________________________
 a. Header to consist of the website name, along with links to the Home Page, Video games review section, Tabletop games review section, About webpage and a contact page (essential!). In the future, this may be expanded to include Playthroughs, forum, gallery and podcast sections. (non-essential)
 
@@ -53,6 +59,7 @@ f. thankyou page. This page exists to thank users who fill out the contact form.
 
 The minimal viable product for this website is a (header) b (footer) c (homepage) d (review pages) and e (contact page.)
 
+
 5.	Wireframes:
 ________________________________________
 The wireframes can be accessed from the "wireframes" folder, and also directly here:
@@ -64,6 +71,7 @@ https://github.com/ANDREWAHN-UK/MS-ONE/blob/master/wireframes/MS1%20mobile.pdf
 https://github.com/ANDREWAHN-UK/MS-ONE/blob/master/wireframes/MS1.bmpr
 
 https://github.com/ANDREWAHN-UK/MS-ONE/blob/master/wireframes/MS1.pdf
+
 
 6.	Technology:
 ________________________________________
@@ -118,6 +126,7 @@ https://explorminate.co/
 
 Boardgame Geek https://www.boardgamegeek.com/
 
+
 7.	Testing:
 ________________________________________
 
@@ -130,6 +139,8 @@ a.	Upon entering the site, users are greeted with a visually attractive homepage
 b.	The homepage immediately establishes the 2 purposes of the website.
 
 c.	The user has two main (or obvious) options, which are to go to the tabletop or digital review sections) and others, enabled by the navigation bar.
+
+
 
 ii.	Potential game buyer
 
@@ -146,6 +157,8 @@ d.	Choosing a review opens up a separate page, with a back to top button to enab
 iii.	Potential collaborator
 
 a.	The header has a prominent “contact” button, allowing users to submit review requests.
+
+
 
 iv.	General users:
 
@@ -174,7 +187,7 @@ There were several buttons introduced to aid navigation:
 These have been tested and adjusted at various viewports, so there is consistent styling, specifically that the text is removed, and a heavier reliance placed on icons at smaller viewports. The colour scheming for these accords with the header and footer, to maintain visual consistency.
 
 
-I used Opera, Edge, Firefox and Chrome, and tested this, along with general usability using the dev tools there.
+I used Opera, Edge, Firefox and Chrome, and tested this, along with general usability, using the dev tools there.
 
 Dev tools in chrome by right click + inspect + toggle device toolbar + select various devices.
 
@@ -184,9 +197,19 @@ In firefox, right click + responsive design mode (ctrl+shift+m) + select various
 
 In Edge right click + inspect + toggle device emulation + select various devices.
 
-Screenshots showing the testing are available from the "screenshots for testing" folder:
 
-https://github.com/ANDREWAHN-UK/MS-ONE/blob/master/screenshots-for-testing
+The procedure for testing was as follows:
+
+1 - In style.css set up media queries for the viewports, in descending order (i.e. starting with the Ipad Pro and ending with the Galaxy Fold)
+
+2 - introduce a new element, or change, e.g. a "scroll to top button."
+
+2 - style it for the desktop, using dev tolls and style.css.
+
+3 - when happy with this, use dev tools for the next viewport, in descending order (i.e. starting with the Ipad Pro )
+
+4 - Repeat for each element and page, e.g. styling the padding and size of the social media icons.
+
 
 I used https://validator.w3.org to validate the html and https://jigsaw.w3.org/css-validator/ to validate the CSS. 
 
@@ -197,11 +220,11 @@ I did not encounter many bugs the second time around, although I did have some i
 I also had some issues with gaps appearing between images, with white space showing, which was not wanted. I solved this by using "no gutters" when constructing the rows and columns.
 
 
-Lastly, the images in the review pages were not displaying correctly on Tablets, namely the Kindle HDX and iPad, but not the iPad Pro. Experimenting revealed that "col-md-6" was causing images to take up only half the row, so removing it fixed this issue.
+The images in the review pages were not displaying correctly on Tablets, namely the Kindle HDX and iPad, but not the iPad Pro. Experimenting revealed that "col-md-6" was causing images to take up only half the row, so removing it fixed this issue.
 
 Feedback from the initial submission indicated some issues with errant html commenting in the deployed code, alongside issues with viewports, especially on the iPad and Kindle formats. These have been resolved. There was an image in the crusader Kings 2 review that was causing problems on smaller viewports, setting the CSS here to max-width: 100% solved the problem.
 
-Further testing was done with friends and family, using fresh eyes to test the UX, most notably ease of navigation between pages, and visibility of text against coloured backgrounds.
+Further testing was done with friends and family, and by submitting the code for peer review on slack,using fresh eyes to test the UX, most notably ease of navigation between pages, and visibility of text against coloured backgrounds.
 
 Results of this testing led to the introduction of the aforementioned buttons and an introduction at the start of the Tabletop and Digital reviews sections.
 
