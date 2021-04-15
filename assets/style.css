@@ -234,16 +234,17 @@ position: absolute;
 .rev-text-form{ /*this is the text area for individual reviews*/
     position: absolute;  
     top: 0;  
-    left: 0;    
+    left: 10%;  
+    right: 10%;  
     height:100vh;
-    width:100%;
+    width:80%;
     margin-top: 0%;
-    background-color: rgba(145, 139, 139, 0.7);
+    background-color: rgba(145, 139, 139, 0.144);
     color: white;
     overflow: scroll;
     padding-top: 15%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 0%;
+    padding-right: 2%;
     padding-bottom: 10%;
     font-size: 20px;
 }
@@ -260,6 +261,23 @@ position: absolute;
 /*this is the image used in the full CK2 review, styled to keep a consistent width*/
 .rev-image {
     max-width: 100%;
+}
+
+.to-digital-reviews-button-CK2  {  
+/* this adjusts the go to digital review button on the CK2 review page*/
+ position: fixed;
+  left: 93%;  
+  top:11%;  
+  color: rgba(252, 248, 248, 0.87);
+  font-size: 20px;
+  border: 2px white solid;
+  background-color: rgba(20, 20, 20, 0.027);
+  width: 6rem;
+  height:6rem;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 
@@ -344,7 +362,7 @@ input[type=submit]:hover {
     margin-left: 50px; /*pushes the logo from the left*/
     }
 
-.to-tabletop-reviews-button {  /* this affects how the go to tabletop button looks*/
+   .to-tabletop-reviews-button {  /* this affects how the go to tabletop button looks*/
    left: 70%;  
     }
 
@@ -362,6 +380,19 @@ input[type=submit]:hover {
 
     .scroll-top p {/*this removes the word top from the scroll up button*/
         display:none;
+    }
+
+    .to-digital-reviews-button-CK2{ /* this adjusts the go to digital review button on the CK2 review page*/
+        left: 88%;
+        font-size: 50px;
+    }
+
+    .to-digital-reviews-button-CK2 p{/*this removes the text from this button*/
+        display: none
+    }
+
+    .rev-text-form{ /*this is the text area for individual reviews*/
+    padding-right: 3%;
     }
    
 }
@@ -399,7 +430,7 @@ input[type=submit]:hover {
         left: 60%;  
     }
 
-     .scroll-top {  /* this affects how the scroll to top button looks*/
+     .scroll-top, .to-digital-reviews-button-CK2  {  /* this affects how these buttons look*/
         left: 91%;  
         width: 4rem; 
         height: 4rem;
@@ -432,7 +463,7 @@ input[type=submit]:hover {
         height: 40%; 
     }
 
-    .scroll-top {  /* this affects how the scroll to top button looks*/
+    .scroll-top, .to-digital-reviews-button-CK2  {  /* this affects how these buttons look*/
         left: 90%;  
         width: 3rem; 
         height: 3rem;
@@ -441,9 +472,9 @@ input[type=submit]:hover {
 
 }
 
-@media only screen and (max-width:450px) /*iPhone 6/7/8 +* and Pixel2, Pixel2XL*/{
+@media only screen and (max-width:414px) /*iPhone 6/7/8 +* and Pixel2, Pixel2XL*/{
 
-    .scroll-top {  /* this affects how the scroll to top button looks*/
+    .scroll-top, .to-digital-reviews-button-CK2  {  /* this affects how these buttons look*/
         left: 88%;  
         width: 3rem; 
         height: 3rem;
@@ -467,12 +498,18 @@ input[type=submit]:hover {
     .rev-title-header{
         font-size: 20px;
     }
-   .scroll-top {  /* this affects how the scroll to top button looks*/
+
+    .scroll-top, .to-digital-reviews-button-CK2  {  /* this affects how these buttons look*/
         left: 86%;  
     }
 
+    .rev-text-form{ /*this is the text area for individual reviews*/
+        width: 75%;
+        left:12%;
+    }
+
     .rev-caption{
-         left: 30%; /*shifts the read more button left on smaller viewports*/
+        left: 30%; /*shifts the read more button left on smaller viewports*/
     }
 
     .to-digital-reviews-button, .to-tabletop-reviews-button {  /* this affects how the go to review buttons look*/
@@ -527,8 +564,12 @@ input[type=submit]:hover {
         left:25%; /*adjusts positioning*/
     }
 
-    .scroll-top {  /* this affects how the scroll to top button looks*/
+     .scroll-top, .to-digital-reviews-button-CK2  {  /* this affects how these buttons look*/
         left: 85%;  
+    }
+
+    .to-digital-reviews-button-CK2{ /*adjusts the go to digital button on the ck2 review page*/
+        top: 10%;
     }
 
     .to-digital-reviews-button, .to-tabletop-reviews-button {  /* this affects how the go to review buttons look*/
@@ -583,8 +624,16 @@ input[type=submit]:hover {
         font-size: 20px;
     }
 
-    .scroll-top {  /* this affects how the scroll to top button looks*/
-        left: 82%;  
+    .scroll-top, .to-digital-reviews-button-CK2  {  /* this affects how these buttons look*/
+        left: 83%;  
+    }
+
+    .to-digital-reviews-button-CK2{ /*adjusts the go to digital button on the ck2 review page*/
+        top: 15%;
+    }
+
+    .rev-text-form{ /*this is the text area for individual reviews*/
+        padding-right: 5%;
     }
     
 }
