@@ -204,7 +204,7 @@ The procedure for testing was as follows:
 
 2 - introduce a new element, or change, e.g. a "scroll to top button."
 
-2 - style it for the desktop, using dev tolls and style.css.
+2 - style it for the desktop, using dev tools and style.css.
 
 3 - when happy with this, use dev tools for the next viewport, in descending order (i.e. starting with the Ipad Pro )
 
