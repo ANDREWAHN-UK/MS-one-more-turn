@@ -136,7 +136,7 @@ a {
     height:100%;
 }
 
-.placeholder-rev-box-text {  /* this affects the text for the placeholder review pages*/
+.placeholder-rev-box-text, .about-rev-box-text {  /* this affects the text for the placeholder review pages*/
   position: absolute;
   top: 10%;
   left: 10%;
@@ -155,23 +155,10 @@ a {
 }
 
 .about-rev-box-text{ /* this affects the text for the about page*/
-    position: absolute;
-  top: 10%;
-  left: 10%;
-  right: 15%;
-  bottom: 10%;  
-  color: rgb(252, 248, 248);
-  font-size: 20px;
-  font-weight: 500;
-  border: none;
-  background-color: rgba(103, 106, 110, 0.055);
-  width: 80vw;
-  height: 80%;   
- overflow-x: hidden;
- overflow-y: scroll;
- text-overflow: ellipsis;
- text-align: left;
+  left: 15%; 
+  width: 70vw;
 }
+  
 
 .rev-box{ /* for the reviews pages*/
     height: 70vh;
