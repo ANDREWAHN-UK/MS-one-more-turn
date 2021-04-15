@@ -1,66 +1,78 @@
 
-Milestone Project 1
+<h1> MILESTONE PROJECT ONE</h1>
 
 
-1.	Purpose of the project:
+1.	### *Purpose of the project:*
 ________________________________________
 The purpose of this project is to provide a game review website that serves to inform the user of Andrew’s reviews, and invite them to collaborate/request future reviews. The idea for this website is based on a blog that I started regarding computer games, using Weebly. I didn’t have any web development skills when I created the blog, and once I learned HTML and CSS, updating and upgrading my blog into a real website was the first thing that occurred to me. It started life as “grababrew” then was changed to “One more Turn” which I felt more adequately represents the feeling you have when a game is really good, and you don’t want to stop playing.
 
 
-2.	User Goals/stories:
+2. ### 	*User Goals/stories:*
 ________________________________________
-a.	As a Potential Employer for a Coding Role, I want to view Andrew’s website, to see how he performs as a Full stack developer. I want to be able to navigate the website and compare it to others, of similar scope.
+<ol>
+  <li>As a Potential Employer for a Coding Role, I want to view Andrew’s website, to see how he performs as a Full stack developer. I want to be able to navigate the website and compare it to others, of similar scope.
+</li>
 
-b.	As a Potential Game buyer, I want to understand Andrew’s perspective on games I may be interested in, in the form of reading his reviews.
+  <li>As a Potential Game buyer, I want to understand Andrew’s perspective on games I may be interested in, in the form of reading his reviews.
+</li>
 
-c.	As a Potential Collaborator, I want to be able to contact Andrew directly through the site and have easy access to his reviews and social media presence. I want to be able to submit a game review request. 
+  <li>As a Potential Collaborator, I want to be able to contact Andrew directly through the site and have easy access to his reviews and social media presence. I want to be able to submit a game review request. 
+</li>
 
-d.	As a general user, I want to be able to navigate through the page easily, and not get trapped at the bottom of any single page.
+<li>As a general user, I want to be able to navigate through the page easily, and not get trapped at the bottom of any single page.</li>
+</ol>	
+	
 
 
-3.	Stakeholder Goals
+3.	###  *Stakeholder Goals*
 ________________________________________
 To lead the user to read Andrew’s reviews and contact/connect with Andrew on social media/through a contact form if user is a potential collaborator or client.
 
 To lead the user to read Andrew’s reviews and contact/connect with Andrew on social media/through a contact form if user is a potential collaborator or client
 
 
-4.	Typography and colour scheme:
+
+
+4.	### *Typography and colour scheme:*
+________________________________________
+<ol>
+<li>Font - Exo and Sans serif. This is because they worked well in the Code Institute models (i.e., easy to read)</li> 
+
+<li>Icons - taken from Font Awesome, mainly in order to comply with existing conventions, e.g., a house or similar to represent the Homepage.
+</li> 
+<li>Colours – muted use of colours throughout, in order to draw visual attention to the review sections of the website. Red, white and black are the primary colours.
+</li> 
+<li>Images – photos and screenshots taken of games and game accessories (e.g. dice) to be used as icons for the relevant games, and background images for the relevant sections of the website. In CSS I used a filter to darken the images, so any text displayed stands out better. 
+</li> 
+<ol>
+
+
+5. ### *Features:*
 ________________________________________
 
-a. Font - Exo and Sans serif. This is because they worked well in the Code Institute models (i.e., easy to read)
-
-b. Icons - taken from Font Awesome, mainly in order to comply with existing conventions, e.g., a house or similar to represent the Homepage.
-
-c. Colours – muted use of colours throughout, in order to draw visual attention to the review sections of the website. Red, white and black are the primary colours.
-
-d. Images – photos and screenshots taken of games and game accessories (e.g. dice) to be used as icons for the relevant games, and background images for the relevant sections of the website. In CSS I used a filter to darken the images, so any text displayed stands out better. 
-
-
-5. Features:
-________________________________________
-a. Header to consist of the website name, along with links to the Home Page, Video games review section, Tabletop games review section, About webpage and a contact page (essential!). In the future, this may be expanded to include Playthroughs, forum, gallery and podcast sections. (non-essential)
-
-b. Footer to consist of social media links and the website name again (essential) and in the future this could be expanded to include a Patreon link, and an additional call to sign up (non-essential).
-
-c. Homepage. The intent of the homepage is to provide a visually appealing but clean, minimalist introduction to the website, with a concise description of the website and 2 images that link to the review sections of the website.
-
-d. Review sections- There are 2 review sections, one for digital (video, computer, console) games, and the others for tabletop (card, boardgames) games.
+<ol>
+<li>Header to consist of the website name, along with links to the Home Page, Video games review section, Tabletop games review section, About webpage and a contact page (essential!). In the future, this may be expanded to include Playthroughs, forum, gallery and podcast sections. (non-essential)
+</li> 
+<li>Footer to consist of social media links and the website name again (essential) and in the future this could be expanded to include a Patreon link, and an additional call to sign up (non-essential).
+</li> 
+<li>Homepage. The intent of the homepage is to provide a visually appealing but clean, minimalist introduction to the website, with a concise description of the website and 2 images that link to the review sections of the website.
+</li> 
+<li>Review sections- There are 2 review sections, one for digital (video, computer, console) games, and the others for tabletop (card, boardgames) games.
 
 These will have a selection of game reviews, and the layout will be rows. When clicked upon, user is taken to a dedicated page for that review. At the top of the page there is a title and a brief introduction, and on each page there is a scroll to top button, to aid navigation.
-
-e. About. This is a simple page that outlines the philosophy of the website.
-
-f. Contact. This page will be a simple contact/request for review form, with all fields obligatory.
-
-g. placeholder review - this is linked to reviews that are not yet complete, as it will take time to create proper reviews.
-
-f. thankyou page. This page exists to thank users who fill out the contact form.
-
+</li>
+<li>About. This is a simple page that outlines the philosophy of the website.
+</li> 
+<li>Contact. This page will be a simple contact/request for review form, with all fields obligatory.
+</li> 
+<li>Placeholder review - this is linked to reviews that are not yet complete, as it will take time to create proper reviews.
+</li> 
+<li> Thankyou page. This page exists to thank users who fill out the contact form.</li>
+</ol>
 The minimal viable product for this website is a (header) b (footer) c (homepage) d (review pages) and e (contact page.)
 
 
-5.	Wireframes:
+5.	### *Wireframes:*
 ________________________________________
 The wireframes can be accessed from the "wireframes" folder, and also directly here:
 
@@ -73,7 +85,7 @@ https://github.com/ANDREWAHN-UK/MS-ONE/blob/master/wireframes/MS1.bmpr
 https://github.com/ANDREWAHN-UK/MS-ONE/blob/master/wireframes/MS1.pdf
 
 
-6.	Technology:
+6.	### *Technology:*
 ________________________________________
 The website was created using Bootstrap, html5 and css3. No JavaScript was used, except what is bundled with Bootstrap. I originally built this website without any bootstrap, as I felt intimidated by the Bootstrap learning curve. However, I could not get the viewports to work consistently when testing it, so I rebuilt the website using Bootstrap. The main utility of Bootstrap in this website was in providing a header that collapses on smaller viewports, and also built-in scaling for various viewports.
 
@@ -82,52 +94,18 @@ When I started the website, GitHub and Gitpod were experiencing some issues, so 
 
 Resources:
 
-GitHub https://www.github.com
+GitHub - used to host the pages.
 
-GitPod https://www.gitpod.io, but usually accessed by using GitHub
+GitPod - usually accessed by using GitHub, used to edit the pages.
 
-Visual Studio Code. https://code.visualstudio.com/ Please note that since the project began, GitHub has migrated away from the Theia framework onto Visual Studio Code.
+Visual Studio Code - backup editor. Please note that since the project began, GitHub has migrated away from the Theia framework onto Visual Studio Code.
 
-Bootstrap CDN: https://getbootstrap.com/docs/4.0/getting-started/introduction/
+Bootstrap CDN - used to structure the pages.
 
-https://www.w3schools.com
-
-https://wyrmwoodgaming.com/products/rtd-naughty-dice/
-
-https://aow.triumph.net/gallery/
-
-steam.com
-
-https://unsplash.com for several photos
-
-www.shopify.com/
-
-codeinstitute.net
-
-stackoverflow.net
-
-google.com
-
-youtube.com
-
-fontawesome.com
-
-paradox.com
-
-https://mongolcult.com/
-
-https://www.quartertothree.com/fp/
-
-The Scientific Gamer | Science, gaming, and all things in between.
-
-PC Gamer https://www.pcgamer.com/uk/
-
-https://explorminate.co/
-
-Boardgame Geek https://www.boardgamegeek.com/
+Font Awesome - used for icons.
 
 
-7.	Testing:
+7.	### *Testing:*
 ________________________________________
 
 Testing the user goals/stories (section 2):
@@ -238,7 +216,7 @@ There were some readability issues with the Crusader Kings 2 review, rectified b
 
 
 
-8. Deployment:
+8. ###  *Deployment:*
 ________________________________________
 GITHUB: https://andrewahn-uk.github.io/MS-one-more-turn/
 
@@ -316,7 +294,7 @@ naughty-khorana-5e9348 https://naughty-khorana-5e9348.netlify.app
 
 When I began, there were some issues with GitHub, including a temporary server overloading at one point, but recently there have been no problems.
 
-9. Credits:
+9. ###  *Credits:*
 ________________________________________
 Code:
 
