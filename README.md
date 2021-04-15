@@ -189,11 +189,11 @@ These have been tested and adjusted at various viewports, so there is consistent
 
 I used Opera, Edge, Firefox and Chrome, and tested this, along with general usability, using the dev tools there.
 
-Dev tools in chrome by right click + inspect + toggle device toolbar + select various devices.
+Dev tools in Chrome by right click + inspect + toggle device toolbar + select various devices.
 
 In Opera right click + inspect + toggle device toolbar + select various devices. I
 
-In firefox, right click + responsive design mode (ctrl+shift+m) + select various devices. NB that firefox displays this all at the bottom, not the right side like the others. 
+In Firefox, right click + responsive design mode (ctrl+shift+m) + select various devices. NB that firefox displays this all at the bottom, not the right side like the others. 
 
 In Edge right click + inspect + toggle device emulation + select various devices.
 
