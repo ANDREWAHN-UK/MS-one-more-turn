@@ -240,7 +240,7 @@ position: absolute;
     width:80%;
     margin-top: 0%;
     background-color: rgba(145, 139, 139, 0.144);
-    color: white;
+    color: rgb(250, 246, 246);
     overflow: scroll;
     padding-top: 15%;
     padding-left: 0%;
@@ -253,9 +253,10 @@ position: absolute;
 .rev-ck-two-about{/*uses the form group format*/
     height:100vh;
     width:100%;
-    background-image: url(https://i.imgur.com/kcCnsQB.jpg);
+    background-image: url(https://i.imgur.com/HgYLcw0.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    filter: brightness(100%);
 }
 
 /*this is the image used in the full CK2 review, styled to keep a consistent width*/
