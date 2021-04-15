@@ -566,6 +566,13 @@ input[type=submit]:hover {
         width: 80vw;
         height: 70%;   
     }
+
+    .soc-med i {/* style the social media icons*/
+    padding: 12px;
+    padding-top: 7px;
+    font-size: 30px;
+    color: rgba(252, 248, 248, 0.87);
+    }
 }
 
 @media only screen and (max-width: 320px) /*iPhone 5/SE*/{
@@ -598,12 +605,7 @@ input[type=submit]:hover {
         font-size: 18px; 
     }
 
-    .soc-med i {/* style the social media icons*/
-    padding: 12px;
-    padding-top: 7px;
-    font-size: 30px;
-    color: rgba(252, 248, 248, 0.87);
-    }
+    
 }
     
 
